@@ -6,7 +6,6 @@
   - [x] accessible anywhere with tamer's whip
   - [x] adjust movement chance (10-100), prefered distance (1-5) and subroutine chance (0-35) (shows if sub is not defined)
   - [x] eating/pickup prohibtion
-  - [ ] add some aesthetic polish to ui
   - [ ] disable options covered from Leold dialogue
  #### Healbots (inspired by E+C)
   * allies with `Healing Rain` set as low hp action will use it for others that are below 50% hp
@@ -27,6 +26,8 @@
  #### Filter 'undecoded' books from reading (port from E+C)
  #### Minimap markers (partial port/rewrite from OOR)
  * these appear after `Detect objects` use
+ #### Alchemical rain (when used by pet AI) will no longer spam restore spirit
+ * randomly selects from: cure critical (triple chance), restore body/spirit, defender, hero, resistance, troll blood
  
 # Rebalance
  #### Sleep
