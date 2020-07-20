@@ -1,5 +1,9 @@
 # What is E+1
  a balance and qol features mod for _(well, technically a variant of)_ [Elona+](http://wanwanplus.blog.fc2.com/blog-entry-38.html)
+ with which it is fully (ie. both ways) save compatible
+
+# Usage
+ unpack archived executable into matching E+ version directory
 
 # Features
  #### Tweak AI
@@ -45,7 +49,7 @@
 
 # Cutscenes (optional)
  * drop in translated `scene2.hsp` (eg. from E+C*) to exe directory
-   ###### *note these are bit outdated, but should work
+   ###### *not included, also note these are bit outdated but _should_ work, only failing silently on new scenes
   
 # Planned
  #### Likely
@@ -53,6 +57,7 @@
  * port equipment set from OOR (partial, just one set)
  * port artifact fusion from OOR
  * more coherent napping mechanics and useful coffee
+ * make enhant generation be more oo-like (ie. not nigh everything below godly tier being a slew of +skill bonuses)
 #### Maybe
  * food jobs working as 'dish rankX or higher'
  * crops that dont benefit from +enhance lose it (coffee, tea, tobacco, ??)
