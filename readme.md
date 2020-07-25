@@ -29,9 +29,14 @@
  #### Displace (most) talkable NPCs with shift-move (port from OOR)
  #### Filter 'undecoded' books from reading (port from E+C)
  #### Minimap markers (partial port/rewrite from OOR)
- * these appear after `Detect objects` use
+ * these appear after `Detect objects` use and during exploration (stepping on tiles marks features other than hidden medals)
+ * additionally harvest job delivery chest are automarked
  #### Alchemical rain (when used by pet AI) will no longer spam restore spirit
  * randomly selects from: cure critical (triple chance), restore body/spirit, defender, hero, resistance, troll blood
+ #### Stackables
+ * crop produce (except wildflowers) - instead of increasing item +level, plot bonus transfers into harvest count multipliers (= level/5 + 1)
+ * livestock produce (milk, eggs) - no suffix and always uncursed, note produce extracted by love potion remain unchanged
+ * stackable jerky - no suffix
  
 # Rebalance
  #### Sleep
@@ -46,6 +51,10 @@
   * +(5*tier)% for 1500 turns, with cooking thresholds rescaled to increase tier spacing to more E+ appropriate levels (+50%)
  #### Thirst
   * walking on water type tiles quckly replenishes hydration
+ #### Picnic basket
+  * rotten ingredients not allowed in recipe
+ #### Destiny loot
+  * moved to chest (300s one) - still hardfixed godly but otherwise standard chest lootlevel rules apply, ie. itemlevel is inherited from chest
 
 # Cutscenes (optional)
  * drop in translated `scene2.hsp` (eg. from E+C*) to exe directory
@@ -53,14 +62,10 @@
   
 # Planned
  #### Likely
- * stackable jerkys and milk (no suffix, uniform satiety value)
  * port equipment set from OOR (partial, just one set)
  * port artifact fusion from OOR
  * more coherent napping mechanics and useful coffee
  * make enhant generation be more oo-like (ie. not nigh everything below godly tier being a slew of +skill bonuses)
 #### Maybe
  * food jobs working as 'dish rankX or higher'
- * crops that dont benefit from +enhance lose it (coffee, tea, tobacco, ??)
-#### Unlikely
- * partly stackable crops (+enhance limited to +3 with overflow carried to yield - eg. +6 -> +3*2)
 
