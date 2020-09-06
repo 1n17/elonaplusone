@@ -3,7 +3,8 @@
  with which it is fully (ie. both ways) save compatible
 
 # Usage
- unpack archived executable into matching E+ version directory
+ * unpack archived executable into matching E+ version directory
+ * if running into problems on win10 (possibly 8?) set exe to win7 compatibility mode, running as admin also works
 
 # Features
  #### Tweak AI
@@ -28,15 +29,20 @@
  * food rot timers available at partial identify (from cooking skill)
  #### Displace (most) talkable NPCs with shift-move (port from OOR)
  #### Filter 'undecoded' books from reading (port from E+C)
- #### Minimap markers (partial port/rewrite from OOR)
- * these appear after `Detect objects` use and during exploration (stepping on tiles marks features other than hidden medals)
- * additionally harvest job delivery chest are automarked
+ #### Minimap markers (~partial port/rewrite from OOR~/OOR inspired)
+ * these appear after `Detect objects` use and during exploration
+ * traps marked when in cast range (7) or when found by searching
+ * medals not marked at all
+ * stairs/doors/harvest points/delivery chest marked map wide (with spell) or if in los (exploration)
  #### Alchemical rain (when used by pet AI) will no longer spam restore spirit
  * randomly selects from: cure critical (triple chance), restore body/spirit, defender, hero, resistance, troll blood
  #### Stackables
  * crop produce (except wildflowers) - instead of increasing item +level, plot bonus transfers into harvest count multipliers (= level/5 + 1)
  * livestock produce (milk, eggs) - no suffix and always uncursed, note produce extracted by love potion remain unchanged
  * stackable jerky - no suffix
+ #### Food delivery jobs accepting 'dish rankX or higher'
+ #### Larna vacation mode
+ * `R`esting in larna pool passes time quickly
  
 # Rebalance
  #### Sleep
@@ -63,11 +69,9 @@
    ###### *not included, also note these are bit outdated but _should_ work, only failing silently on new scenes
   
 # Planned
- #### Likely
- * port equipment set from OOR (partial, just one set)
- * port artifact fusion from OOR
- * more coherent napping mechanics and useful coffee
- * make enhant generation be more oo-like (ie. not nigh everything below godly tier being a slew of +skill bonuses)
-#### Maybe
- * food jobs working as 'dish rankX or higher'
+* port equipment set from OOR (partial, just one set)
+* port artifact fusion from OOR
+* more coherent napping mechanics and useful coffee
+* make enhant generation be more oo-like (ie. not nigh everything below godly tier being a slew of +skill bonuses)
+
 
